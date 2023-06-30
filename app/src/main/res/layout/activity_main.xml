@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/intentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Intent" />
+    <Button
+        android:id="@+id/globalVariableBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Global Variable" />
+    <Button
+        android:id="@+id/bundleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Bundle" />
+    <Button
+        android:id="@+id/serializableBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Serializable" />
+    <Button
+        android:id="@+id/parcelableBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Parcelable" />
+</LinearLayout>
